@@ -1,2 +1,2 @@
 # beginner-projects
-Initial Python study projects
+Initial python study projects
