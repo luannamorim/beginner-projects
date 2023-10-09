@@ -144,7 +144,7 @@ def imprime_mensagem_abertura():
 
 
 def carrega_palavra_secreta():
-    arquivo = open("C:/Users/Luann/Documents/palavras.txt", "r")
+    arquivo = open("palavras.txt", "r")
     palavras = []
 
     for linha in arquivo:
