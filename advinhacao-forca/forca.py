@@ -1,4 +1,5 @@
 import random
+import os
 
 
 def jogar():
@@ -144,7 +145,8 @@ def imprime_mensagem_abertura():
 
 
 def carrega_palavra_secreta():
-    arquivo = open("palavras.txt", "r")
+    caminho = os.path.join(os.getcwd(), "advinhacao-forca", "palavras.txt")
+    arquivo = open(caminho, "r")
     palavras = []
 
     for linha in arquivo:
