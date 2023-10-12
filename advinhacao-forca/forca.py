@@ -145,8 +145,7 @@ def imprime_mensagem_abertura():
 
 
 def carrega_palavra_secreta():
-    caminho = os.path.join(os.getcwd(), "advinhacao-forca", "palavras.txt")
-    arquivo = open(caminho, "r")
+    arquivo = open("./advinhacao-forca/palavras.txt", "r")
     palavras = []
 
     for linha in arquivo:

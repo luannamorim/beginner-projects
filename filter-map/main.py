@@ -2,8 +2,7 @@ import json
 import os
 
 
-path = os.path.join(os.getcwd(), "filter-map", "aquarium.json")
-f = open(path, encoding="utf8")
+f = open("./filter-map/aquarium.json", encoding="utf8")
 data_aquarium = json.load(f)
 animals = data_aquarium["data"]
 

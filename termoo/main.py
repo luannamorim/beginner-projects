@@ -3,8 +3,7 @@ import random
 import os
 
 
-path = os.path.join(os.getcwd(), "termoo", "words.json")
-f = open(path, encoding="utf8")
+f = open("./termoo/words.json", encoding="utf8")
 
 words = json.load(f)
 choice_c = random.choice(list(words.keys()))
