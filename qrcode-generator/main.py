@@ -3,12 +3,12 @@ import tkinter as tk
 from tkinter import filedialog
 
 
+data = input('Link QRCODE: ')
+name = input('Name QRCODE: ')
+
 root = tk.Tk()
 dirNome = filedialog.askdirectory(
     parent=root, initialdir="/", title='Select the folder')
-
-data = input('Link QRCODE: ')
-name = input('Name QRCODE: ')
 
 img = qrcode.make(data)
 file_path = f"{dirNome}/{name}.png"
