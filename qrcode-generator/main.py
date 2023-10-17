@@ -15,5 +15,4 @@ dirNome = filedialog.askdirectory(
 img = qrcode.make(data)
 file_path = f"{dirNome}/{formatted_name}.png"
 img.save(file_path)
-
 print(f'QRCODE saved successfully at: {file_path}')
