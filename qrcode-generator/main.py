@@ -1,8 +1,17 @@
 import qrcode
+import tkinter as tk
+from tkinter import filedialog
 
 
-data = input('QRCODE content: ')
+root = tk.Tk()
+dirNome = filedialog.askdirectory(
+    parent=root, initialdir="/", title='Select the folder')
+
+data = input('Link QRCODE: ')
 name = input('Name QRCODE: ')
+
 img = qrcode.make(data)
-img.save(f'C:/Users/Luann/Documents/{name}.png')
-print('QRCODE Saved successfully!')
+file_path = f"{dirNome}/{name}.png"
+img.save(file_path)
+
+print(f'QRCODE saved successfully at: {file_path}')
