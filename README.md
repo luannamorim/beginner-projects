@@ -1,2 +1,4 @@
 # beginner-projects
-Initial python study projects
+My beginner python projects separated by modules!
+
+<img src="/img/python.gif">
