@@ -1,4 +1,7 @@
 ## beginner-projects
 These are my beginner python projects separated by modules!
 
-<img src="/img/python.gif">
+🐍 These are my Python study projects, separated by modules. It's just the beginning, there's still a lot to learn!
+
+
+<img src="/img/padawan.gif">
