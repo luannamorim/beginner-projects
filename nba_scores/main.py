@@ -2,10 +2,10 @@ from requests import get
 from datetime import datetime
 
 BASE_URL = "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
-response = get(BASE_URL).json()
 
 
 def get_scoreboard():
+    response = get(BASE_URL).json()
     games = response['scoreboard']['games']
     date_games = response['scoreboard']['gameDate']
     date_formated = datetime.strptime(
