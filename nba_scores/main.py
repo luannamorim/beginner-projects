@@ -1,6 +1,7 @@
 from requests import get
 from datetime import datetime
 
+
 BASE_URL = "https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json"
 
 
