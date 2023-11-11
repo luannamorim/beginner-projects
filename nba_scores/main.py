@@ -29,4 +29,5 @@ def get_scoreboard():
             print(f"{home_team['teamName']} vs {away_team['teamName']}\n")
 
 
-print(get_scoreboard())
+if __name__ == '__main__':
+    print(get_scoreboard())
