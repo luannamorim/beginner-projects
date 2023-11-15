@@ -145,7 +145,7 @@ def imprime_mensagem_abertura():
 
 
 def carrega_palavra_secreta():
-    arquivo = open("./advinhacao-forca/palavras.txt", "r")
+    arquivo = open("./level-a/advinhacao-forca/palavras.txt", "r")
     palavras = []
 
     for linha in arquivo:
