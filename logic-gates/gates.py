@@ -30,10 +30,10 @@ class BinaryGate(LogicGate):
             return self.pinB
 
     def putPinA(self):
-        return int(input("Enter Pin A input to port " + self.getName() + " : "))
+        return int(input("Digite a entrada do Pino A para a porta " + self.getName() + " : "))
 
     def putPinB(self):
-        return int(input("Enter Pin B input to port " + self.getName() + " : "))
+        return int(input("Digite a entrada do Pino B para a porta " + self.getName() + " : "))
 
 
 class UnaryGate(LogicGate):
@@ -48,7 +48,7 @@ class UnaryGate(LogicGate):
             return self.pinA
 
     def putPinA(self):
-        return int(input("Enter Pin A input to port " + self.getName() + " : "))
+        return int(input("Digite a entrada do Pino A para a porta " + self.getName() + " : "))
 
 
 class ANDGate(BinaryGate):
